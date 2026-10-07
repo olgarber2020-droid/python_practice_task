@@ -10,6 +10,7 @@ def month_to_season(month):
     else:
         return "Некорректный номер месяца"
 
+
 print(month_to_season(2))   # Ожидается: Зима
 print(month_to_season(5))   # Ожидается: Весна
 print(month_to_season(8))   # Ожидается: Лето

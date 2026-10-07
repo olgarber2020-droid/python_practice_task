@@ -4,6 +4,9 @@ def is_year_leap(year):
     else:
         return False
 
+
 year = 2021
+
+
 result = is_year_leap(year)
 print(f"год {year}: {result}")
